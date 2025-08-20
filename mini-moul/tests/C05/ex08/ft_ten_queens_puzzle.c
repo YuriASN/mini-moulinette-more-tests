@@ -18,7 +18,7 @@ int test1(void)
 {	
 	if (1 > 0)
 	{
-		printf("    " RED "[1] Sorry, test not implemented yet.\n" DEFAULT,);
+		printf("    " RED "[1] Sorry, test not implemented yet.\n");
 		return (-1);
 	}
 	return (0);
