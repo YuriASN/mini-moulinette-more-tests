@@ -53,6 +53,12 @@ int main(void)
             .find = "-47",
             .expected_output = NULL,
         },
+        {
+            .desc = "String has many parts of substring",
+            .str = "This is to l lo l lo find lol and show the rest",
+            .find = "lol",
+            .expected_output = "lol and show the rest",
+        },
     };
     int count = sizeof(tests) / sizeof(tests[0]);
 
