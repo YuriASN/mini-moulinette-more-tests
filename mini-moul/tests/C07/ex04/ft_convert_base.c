@@ -56,6 +56,13 @@ int main(void)
             .base_to = "5",
             .expected = NULL,
         },
+        {
+            .desc = "Moulinette tests",
+            .nbr = "   +--+-3",
+            .base_from = "0123456789",
+            .base_to = "0123456",
+            .expected = "-3",
+        },
     };
     int count = sizeof(tests) / sizeof(tests[0]);
 
