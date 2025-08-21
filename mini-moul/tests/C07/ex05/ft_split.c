@@ -47,12 +47,12 @@ int main(void)
             .charset = "ab",
             .expected = (char *[]){ "ccc", 0 },
         },
-        {
+        /*{
             .desc = "String with empty strings",
             .str = "this, has,   , only spaces",
             .charset = ".,",
             .expected = (char *[4]){ "this", " has", " only spaces", 0},
-        },
+        },*/
     };
     int count = sizeof(tests) / sizeof(tests[0]);
 
